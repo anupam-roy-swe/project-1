@@ -42,5 +42,25 @@ body{
 }
 /* header section css */
 /* main sectiom scc */
-
+.main-section{
+    margin-top: 120px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+    margin: 7px 13px;
+}
+ul{
+    margin-top: 15px;
+}
+img.img-icon {
+    height: 15px;
+    width: 23px;
+    
+    margin: 5px;
+}
 /* main sectiom scc */
