@@ -5,6 +5,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.text-center{
+    text-align: center;
+}
 /* header section css */
 .header-section{
     background-image: url('images/banner/banner2.png');
@@ -63,4 +72,26 @@ img.img-icon {
     
     margin: 5px;
 }
-/* main sectiom scc */
+/* servise section */
+.service{
+
+}
+.skils-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-title{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.discription{
+    text-align: center;
+}
+/* servise section */
